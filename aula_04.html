@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello World</title>
+</head>
+
+<body>
+    <script>
+      //Confiçoes
+
+        //Condição simples
+        var idade = 18;
+        if (idade >= 18) {
+            console.log("Maior de idade");
+        }
+        else {
+            console.log("Menor de idade");
+        }
+        // Condição com else if
+        var nota = 7;
+
+        if (nota >= 9) {
+            console.log("Ótima nota!");
+        } else if (nota >= 7) {
+            console.log("Boa nota!");
+        } else if (nota >= 5) {
+            console.log("Nota razoável.");
+        } else {
+            console.log("Nota insuficiente.");
+        }
+
+        // Condição com !=
+        var numero = 0;
+        if (numero != 0) {
+            console.log("O número é diferente de zero");
+        } else {
+            console.log("O número é igual a zero");
+        }
+
+        // Condição com switch
+        var dia = 5;
+        switch (dia) {
+            case 1:
+                console.log("Domingo");
+                break;
+            case 2:
+                console.log("Segunda-feira");
+                break;
+            case 3:
+                console.log("Terça-feira");
+                break;
+            case 4:
+                console.log("Quarta-feira");
+                break;
+            case 5:
+                console.log("Quinta-feira");
+                break;
+            case 6:
+                console.log("Sexta-feira");
+                break;
+            case 7:
+                console.log("Sábado");
+                break;
+            default:
+                console.log("Dia inválido");
+        }
+
+        // Condição com && (AND)
+        var idade = 25;
+        var possuiCNH = true;
+
+        if (idade >= 18 && possuiCNH) {
+            console.log("Pode dirigir");
+        } else {
+            console.log("Não pode dirigir");
+        }
+
+        // Condição com || (OR)
+        var diaSemana = "Sábado";
+
+        if (diaSemana === "Sábado" || diaSemana === "Domingo") {
+            console.log("É fim de semana");
+        } else {
+            console.log("Não é fim de semana");
+        }
+
+        
+
+    </script>
+</body>
+
+</html>

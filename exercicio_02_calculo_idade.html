@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <script>
+        var birthYear = prompt("Digite o ano de nascimento:");
+        var currentYear = new Date().getFullYear();
+        var age = currentYear - birthYear;
+        
+        while (birthYear > currentYear || birthYear > 2024) {
+            birthYear = prompt("Digite um ano de nascimento válido:");
+        }
+
+        alert("Sua idade é: " + (currentYear - birthYear));
+        </script>
+    </body>
+</html>

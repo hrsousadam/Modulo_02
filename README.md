@@ -1,1 +1,1 @@
-# Curso Java Scripy
+# Curso Java Script
